@@ -1,8 +1,8 @@
 var katzDeliLine = []; //beginning of the day.. empty Deli 
-
+var customer =0;
 
 function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name);
+  return ("take a number?") 
   return ("Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.");
 }
 
