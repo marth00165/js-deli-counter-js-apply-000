@@ -13,6 +13,9 @@ function takeANumber(katzDeliLine){
   }
 
 function nowServing(katzDeliLine){ // serving line
+  
+  
+  
   if (katzDeliLine.length === 0){
     
     return "There is nobody waiting to be served!";
@@ -24,9 +27,13 @@ function nowServing(katzDeliLine){ // serving line
   
 }
 
-var badabadabingbing = []; // line number
+ // line number
 
 function currentLine(katzDeliLine){  // position in line
+
+var badabadabingbing = [];
+
+
   for (  let i = 0; 
   i < katzDeliLine.length; 
   i++  )
