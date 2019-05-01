@@ -1,18 +1,18 @@
 var katzDeliLine = []; //beginning of the day.. empty Deli 
 var customer =0;
 
-function takeANumber(katzDeliLine, name){
-  return ("take a number?") 
-  return ("Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.");
-}
+function takeANumber(katzDeliLine){
+   
+   customer++
+   
+   katzDeliLine.push(customer)
+   
+  return ("Welcome, customer you are number " + customer)
+ 
+  
+  }
 
 function nowServing(katzDeliLine){ // serving line
-  let i = 0;
-  while (i < katzDeliLine){   
-    
-    i++;
-    
-  }
   if (katzDeliLine.length === 0){
     
     return "There is nobody waiting to be served!";
